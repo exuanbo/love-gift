@@ -1,0 +1,30 @@
+{
+  "name": "love-gift",
+  "version": "0.0.1",
+  "description": "My love gift to my future girlfriend.",
+  "scripts": {
+    "clean": "rimraf dist && mkdir dist",
+    "compile": "coffee -c -o dist/ src/index.coffee",
+    "compile:watch": "coffee -w -c -o dist/ src/index.coffee",
+    "misc": "cp src/favicon.ico src/index.html dist/",
+    "build": "yarn clean && yarn misc && yarn compile",
+    "dev": "yarn clean && yarn misc && yarn compile:watch",
+    "format": "prettier --write src/index.coffee --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idealclover/Love-Gift.git"
+  },
+  "author": "exuanbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idealclover/Love-Gift/issues"
+  },
+  "homepage": "https://github.com/idealclover/Love-Gift#readme",
+  "devDependencies": {
+    "coffeescript": "2.5.1",
+    "prettier": "github:helixbass/prettier#prettier-v2.1.0-dev.100-gitpkg",
+    "prettier-plugin-coffeescript": "0.1.5",
+    "rimraf": "3.0.2"
+  }
+}
