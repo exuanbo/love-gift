@@ -8,7 +8,7 @@
  */
 
 body {
-  background-color: #1a1c24;
+  background-color: #282c34;
   color: #fff;
   font-size: 15px;
   line-height: 1.4;
@@ -32,8 +32,8 @@ pre {
   bottom: 1.5em;
   transition: left 500ms;
   overflow: auto;
-  background-color: #313744;
-  color: #a6c3d4;
+  background-color: #3e4451;
+  color: #c8ccd4;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 0 0.25em 0.875em 0.25em;
   box-sizing: border-box;
@@ -44,7 +44,7 @@ pre {
 /*
  * 不行不行，全是白色看代码都要看昏了
  * 我需要语法高亮~那我们就动手实现一下它吧~
- * Colors based on Base16 Ocean Dark
+ * Colors based on Base16 One Dark
  */
 
 pre em:not(.comment) {
@@ -52,19 +52,19 @@ pre em:not(.comment) {
 }
 
 .comment {
-  color: #707e84;
+  color: #abb2bf;
 }
 .selector {
-  color: #c66c75;
+  color: #e06c75;
 }
 .selector .key {
-  color: #c66c75;
+  color: #e06c75;
 }
 .key {
-  color: #c7ccd4;
+  color: #b6bdca;
 }
 .value {
-  color: #d5927b;
+  color: #d19a66;
 }
 
 /*
@@ -381,7 +381,7 @@ pre em:not(.comment) {
 
   commentTime = 75;
 
-  codeTime = 15;
+  codeTime = 10;
 
   $(document).ready(function() {
     return $('#skipAnimation').click(function() {
