@@ -308,8 +308,7 @@ pre em:not(.comment) {
 
 /*
  * Love Gift v0.0.1
- * MIT License
- * 谨以此网页献给我未来的女朋友💕
+ * 谨以此网页献给未来的女朋友💕
  * 你最可爱ww
  */`;
 
@@ -380,9 +379,9 @@ pre em:not(.comment) {
     <a style="color:#fff" target="_blank" href="https://exuanbo.xyz">我的网站</a>
   </div>`);
 
-  commentTime = 20;
+  commentTime = 60;
 
-  codeTime = 10;
+  codeTime = 15;
 
   $(document).ready(function() {
     return $('#skipAnimation').click(function() {
