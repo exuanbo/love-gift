@@ -384,7 +384,7 @@ $('body').append '''
   </div>
 '''
 
-commentTime = 60
+commentTime = 75
 codeTime = 15
 
 $(document).ready ->
