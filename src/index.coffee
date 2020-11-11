@@ -305,8 +305,7 @@ pre em:not(.comment) {
 
 /*
  * Love Gift v0.0.1
- * MIT License
- * 谨以此网页献给我未来的女朋友💕
+ * 谨以此网页献给未来的女朋友💕
  * 你最可爱ww
  */
 '''
@@ -385,8 +384,8 @@ $('body').append '''
   </div>
 '''
 
-commentTime = 20
-codeTime = 10
+commentTime = 60
+codeTime = 15
 
 $(document).ready ->
   $('#skipAnimation').click ->
