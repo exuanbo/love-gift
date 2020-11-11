@@ -379,7 +379,7 @@ pre em:not(.comment) {
     <a style="color:#fff" target="_blank" href="https://exuanbo.xyz">我的网站</a>
   </div>`);
 
-  commentTime = 60;
+  commentTime = 75;
 
   codeTime = 15;
 
