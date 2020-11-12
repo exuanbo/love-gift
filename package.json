@@ -8,23 +8,20 @@
     "compile:watch": "coffee -w -c -o dist/ src/index.coffee",
     "misc": "cp src/favicon.ico src/index.html dist/",
     "build": "yarn clean && yarn misc && yarn compile",
-    "dev": "yarn clean && yarn misc && yarn compile:watch",
-    "format": "prettier --write src/index.coffee --write"
+    "dev": "yarn clean && yarn misc && yarn compile:watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idealclover/Love-Gift.git"
+    "url": "git+https://github.com/exuanbo/love-gift.git"
   },
   "author": "exuanbo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/idealclover/Love-Gift/issues"
+    "url": "https://github.com/exuanbo/love-gift/issues"
   },
-  "homepage": "https://github.com/idealclover/Love-Gift#readme",
+  "homepage": "https://github.com/exuanbo/love-gift#readme",
   "devDependencies": {
     "coffeescript": "2.5.1",
-    "prettier": "github:helixbass/prettier#prettier-v2.1.0-dev.100-gitpkg",
-    "prettier-plugin-coffeescript": "0.1.5",
     "rimraf": "3.0.2"
   }
 }
