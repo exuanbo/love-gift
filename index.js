@@ -368,16 +368,16 @@ pre em:not(.comment) {
   };
 
   // appending the tags I'll need.
-  $('body').append(`  <style id="style-tag"></style>
+  $(document.body).append(`<style id="style-tag"></style>
 <span id="echo"></span>
 <span id="heart"><i></i></span>
 <pre id="style-text"></pre>
-  <div style ="position:fixed;left:30px;bottom:10px;">
-    <a style="color:#fff" id="skipAnimation" href="#">跳过动画</a>
-    <a style="color:#fff" href="https://exuanbo.xyz/love-gift">重新播放</a>
-    <a style="color:#fff" target="_blank" href="https://github.com/exuanbo/love-gift">源码仓库</a>
-    <a style="color:#fff" target="_blank" href="https://exuanbo.xyz">我的网站</a>
-  </div>`);
+<div style ="position:fixed;left:30px;bottom:10px;">
+  <a style="color:#fff" id="skipAnimation" href="#">跳过动画</a>
+  <a style="color:#fff" href="https://exuanbo.xyz/love-gift">重新播放</a>
+  <a style="color:#fff" target="_blank" href="https://github.com/exuanbo/love-gift">源码仓库</a>
+  <a style="color:#fff" target="_blank" href="https://exuanbo.xyz">我的网站</a>
+</div>`);
 
   commentTime = 75;
 
