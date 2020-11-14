@@ -1,4 +1,4 @@
-name: github pages
+name: Github Pages
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
 
       - uses: actions/setup-node@v2-beta
         with:
-          node-version: '14'
+          node-version: "14"
 
       - run: yarn && yarn build
 
